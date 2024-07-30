@@ -1,0 +1,15 @@
+
+<div class="form-part">
+    <h1>
+        מיקום החלל
+    </h1>
+    <textarea placeholder="פרטי המיקום"></textarea>
+    <button onclick="getCurrentLocation()">השג מיקום נוכחי על ידי GPS</button>
+</div>
+<div class="continue-btn">
+    <div class="btn-wrapper">
+        <button class="margin-bottom" (click)="onNextStep.emit()">
+          המשך
+        </button>
+    </div>
+</div>

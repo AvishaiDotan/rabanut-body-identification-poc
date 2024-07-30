@@ -1,0 +1,38 @@
+
+
+header {
+    background-color: rgb(104, 104, 255);
+    padding-inline: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    height: 4rem;
+
+    h1 {
+        font-size: 2rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .img-container {
+        transform: translate(0%, 25%);
+        padding: 0.5rem;
+        background-color: #6868ff;
+        border-radius: 50%;
+        img {
+            height: 3rem;
+        }
+    }
+}
+
+main {
+    height: calc(100svh - 4rem);
+    background-color: rgba(225, 218, 255, 0.737);
+}
+
+
+
+
+
+
+
